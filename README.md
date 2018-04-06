@@ -9,3 +9,6 @@ Customize the paths to initial Illumina, PacBio and reference fasta files
 Usage:
 snakemake -p master
 snakemake -p master2
+
+Note:
+This contains some unpublished work, please take permissions before using it. Thanks!
