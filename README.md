@@ -1,6 +1,6 @@
 # Diploid-assembly
 
-Snakefile describes the pipeline to generate haplotigs for every phased block.
+The pipeline describes the linear approach to generate haplotigs for every phased block.
 
 Requirements: samtools, bwa, picard, seqtk, whatshap
 
