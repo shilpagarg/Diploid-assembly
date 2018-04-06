@@ -111,6 +111,6 @@ rule split_vcf:
 
 rule assemblies:
 	input:'phased/{refs}/split/{chrid}.vcf', 'phased/{refs}/split/{chrid}.fa'
-	output:'phased/{refs}/split/{chrid}.vcf__linear.fasta'
+	output:'phased/{refs}/split/{chrid}.vcf_linear.fasta'
 	shell: 'python3 {splitVCFbyblocks}' {input[1]} {input[0]}'
 
