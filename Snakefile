@@ -11,7 +11,6 @@ picard = 'picard'
 seqtk = 'seqtk'
 splitVCFbyblocks = 'scripts/splitVCFbyblocks.py'
 whatshap = 'scripts/whatshap/bin/whatshap'
-splitVCFbyblocks = 'splitVCFbyblocks.py'
 
 rule master:
 	input:
